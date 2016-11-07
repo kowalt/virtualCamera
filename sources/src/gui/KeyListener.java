@@ -24,10 +24,10 @@ public class KeyListener implements KeyEventDispatcher {
             cameraView.translateY(TRANSLATION_STEP);
         } else if (e.getKeyChar() == '2') {
             cameraView.translateY(-TRANSLATION_STEP);
-        } else if (e.getKeyChar() == 'w') {
-            cameraView.translateZ(-TRANSLATION_STEP);
         } else if (e.getKeyChar() == 's') {
             cameraView.translateZ(TRANSLATION_STEP);
+        } else if (e.getKeyChar() == 'w') {
+            cameraView.translateZ(-TRANSLATION_STEP);
         } else if (e.getKeyCode() == KeyEvent.VK_UP) {
             cameraView.rotateOX(-ROTATION_FI);
         } else if (e.getKeyCode() == KeyEvent.VK_DOWN) {
